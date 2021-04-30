@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="person_names">
+        <item>Владимир</item>
+        <item>Александр</item>
+        <item>Виталий</item>
+        <item>Григорий</item>
+    </string-array>
+</resources>

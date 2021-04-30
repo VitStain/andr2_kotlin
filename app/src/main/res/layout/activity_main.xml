@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/common_mp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_data_class"
+        style="@style/common_wc"
+        android:text="@string/data_class"
+        android:textSize="@dimen/textsize"
+        android:layout_marginTop="@dimen/marginTop"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/person_output"
+        style="@style/common_wc"
+        android:text="@string/person_output"
+        android:textSize="@dimen/textsize"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_data_class" />
+
+    <Button
+        android:id="@+id/btn_copy_class"
+        style="@style/common_wc"
+        android:text="@string/copy_class"
+        android:textSize="@dimen/textsize"
+        android:layout_marginTop="@dimen/marginTop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/person_output" />
+
+    <TextView
+        android:id="@+id/copy_class_output"
+        style="@style/common_wc"
+        android:text="@string/copy_class_output"
+        android:textSize="@dimen/textsize"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_copy_class" />
+
+    <Button
+        android:id="@+id/btn_cycles"
+        style="@style/common_wc"
+        android:text="@string/cycles"
+        android:textSize="@dimen/textsize"
+        android:layout_marginTop="@dimen/marginTop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/copy_class_output" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
