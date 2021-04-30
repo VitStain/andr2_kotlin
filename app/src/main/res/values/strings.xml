@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ProjectTestKotlin</string>
+    <string name="data_class">data class</string>
+    <string name="person_name">Григорий</string>
+    <string name="person_output">person_output</string>
+    <string name="copy_class">copy class</string>
+    <string name="copy_class_output">copy_class_output</string>
+    <string name="cycles">cycles</string>
+</resources>
